@@ -28,8 +28,12 @@ export default function About() {
             reliable partner for thousands of builders and construction firms.
           </p>
           <p className="text-lg text-gray-600 leading-relaxed">
-            We specialize in block production (hand-molded and vibrated), and we
-            supply construction essentials such as sharp sand, plaster sand,
+            Located at{" "}
+            <strong>
+              5b Water Corporation Drive, Landmark Road, Victoria Island, Lagos
+            </strong>
+            , we specialize in block production (hand-molded and vibrated), and
+            we supply construction essentials such as sharp sand, plaster sand,
             granite, filling sand, iron rods, paving stones, and more. Our
             services also include property renovation and general contracting.
           </p>
@@ -175,6 +179,87 @@ export default function About() {
         </div>
       </section>
 
+      {/* Location Section - New Section Added */}
+      <section className="py-16 px-6 bg-blue-50 animate-slide-up">
+        <div className="max-w-5xl mx-auto">
+          <div className="mb-8 text-center">
+            <span className="text-orange-500 font-medium">Visit us</span>
+            <h2 className="text-3xl font-bold">Our Location</h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div>
+              <h3 className="text-xl font-semibold mb-4">Headquarters</h3>
+              <p className="text-gray-700 mb-6 leading-relaxed">
+                Our main office and showroom is conveniently located at:
+              </p>
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <div className="flex items-start mb-4">
+                  <svg
+                    className="w-6 h-6 text-blue-500 mr-3 mt-1"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                    />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
+                  </svg>
+                  <div>
+                    <p className="font-medium text-lg">
+                      5b Water Corporation Drive
+                    </p>
+                    <p className="text-gray-600">
+                      Landmark Road, Victoria Island
+                    </p>
+                    <p className="text-gray-600">Lagos, Nigeria</p>
+                  </div>
+                </div>
+                <div className="flex items-center">
+                  <svg
+                    className="w-6 h-6 text-blue-500 mr-3"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  <div>
+                    <p className="text-gray-600">Mon-Fri: 8:00 AM - 6:00 PM</p>
+                    <p className="text-gray-600">Sat: 9:00 AM - 4:00 PM</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="h-64 md:h-96 bg-gray-200 rounded-xl overflow-hidden">
+              {/* Replace with your actual map component or iframe */}
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.621030318223!2d3.421269315231636!3d6.441974895338454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMjYnMzEuMSJOIDPCsDI1JzE2LjUiRQ!5e0!3m2!1sen!2sng!4v1620000000000!5m2!1sen!2sng"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                title="Company Location"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Founder Section */}
       <section className="py-20 px-6 max-w-5xl mx-auto text-center animate-slide-up">
         <div className="mb-12">
@@ -195,7 +280,8 @@ export default function About() {
           <p className="text-gray-600 max-w-2xl mx-auto">
             With over 15 years of experience in the construction industry, Mr.
             Leye founded Rosade and Adsam Nigeria Ltd with a vision to provide
-            quality building materials to the Nigerian market.
+            quality building materials to the Nigerian market from our location
+            at 5b Water Corporation Drive.
           </p>
         </div>
       </section>
