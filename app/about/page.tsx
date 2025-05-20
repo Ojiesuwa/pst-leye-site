@@ -1,0 +1,280 @@
+export default function About() {
+  return (
+    <div className="bg-white text-gray-800 font-sans overflow-y-auto h-[calc(100svh-60px)]">
+      {/* Hero Section */}
+      <section className="relative bg-[url('/about-hero.jpg')] bg-cover bg-center text-white py-32 px-6 text-center">
+        <div className="absolute inset-0 bg-blue-500"></div>
+        <div className="relative z-10">
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 animate-fade-in">
+            About Us
+          </h1>
+          <p className="text-xl md:text-2xl max-w-2xl mx-auto animate-fade-in delay-100">
+            Get to know Rosade and Adsam Nigeria Limited
+          </p>
+        </div>
+      </section>
+
+      {/* Company Overview */}
+      <section className="py-20 px-6 max-w-5xl mx-auto animate-slide-up">
+        <div className="mb-8">
+          <span className="text-orange-500 font-medium">Who we are</span>
+          <h2 className="text-3xl font-bold mb-6">Company Overview</h2>
+        </div>
+        <div className="space-y-4">
+          <p className="text-lg text-gray-600 leading-relaxed">
+            Founded in 2010, Rosade and Adsam Nigeria Ltd is a trusted supplier
+            of high-quality building materials in Lagos. Our dedication to
+            excellence, affordability, and service integrity has made us a
+            reliable partner for thousands of builders and construction firms.
+          </p>
+          <p className="text-lg text-gray-600 leading-relaxed">
+            We specialize in block production (hand-molded and vibrated), and we
+            supply construction essentials such as sharp sand, plaster sand,
+            granite, filling sand, iron rods, paving stones, and more. Our
+            services also include property renovation and general contracting.
+          </p>
+        </div>
+      </section>
+
+      {/* Mission and Core Values */}
+      <section className="bg-gray-50 py-20 px-6 animate-slide-up">
+        <div className="max-w-5xl mx-auto">
+          <div className="mb-12 text-center">
+            <span className="text-orange-500 font-medium">Our principles</span>
+            <h2 className="text-3xl font-bold">Our Mission & Core Values</h2>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+              <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6 text-orange-500"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"
+                  />
+                </svg>
+              </div>
+              <h3 className="text-xl font-semibold mb-3">Mission</h3>
+              <p className="text-gray-600 leading-relaxed">
+                To deliver reliable and durable building materials that meet the
+                highest standards of quality, enabling our clients to construct
+                projects with confidence and trust.
+              </p>
+            </div>
+
+            <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+              <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6 text-orange-500"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+                  />
+                </svg>
+              </div>
+              <h3 className="text-xl font-semibold mb-3">Core Values</h3>
+              <ul className="space-y-2 text-gray-600">
+                <li className="flex items-start">
+                  <svg
+                    className="h-5 w-5 text-orange-500 mr-2 mt-0.5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <span>Integrity</span>
+                </li>
+                <li className="flex items-start">
+                  <svg
+                    className="h-5 w-5 text-orange-500 mr-2 mt-0.5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <span>Quality</span>
+                </li>
+                <li className="flex items-start">
+                  <svg
+                    className="h-5 w-5 text-orange-500 mr-2 mt-0.5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <span>Timely Delivery</span>
+                </li>
+                <li className="flex items-start">
+                  <svg
+                    className="h-5 w-5 text-orange-500 mr-2 mt-0.5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <span>Customer Satisfaction</span>
+                </li>
+                <li className="flex items-start">
+                  <svg
+                    className="h-5 w-5 text-orange-500 mr-2 mt-0.5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <span>Innovation</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Founder Section */}
+      <section className="py-20 px-6 max-w-5xl mx-auto text-center animate-slide-up">
+        <div className="mb-12">
+          <span className="text-orange-500 font-medium">Leadership</span>
+          <h2 className="text-3xl font-bold">Meet the Founder</h2>
+        </div>
+        <div className="flex flex-col items-center">
+          <div className="relative mb-6 group">
+            <img
+              src="/founder.jpg"
+              alt="Founder"
+              className="w-48 h-48 rounded-full object-cover shadow-lg group-hover:shadow-xl transition-all"
+            />
+            <div className="absolute inset-0 rounded-full bg-orange-500/10 group-hover:bg-transparent transition-all"></div>
+          </div>
+          <h3 className="text-2xl font-semibold">Mr. PST Leye</h3>
+          <p className="text-gray-600 mb-4">Founder & CEO</p>
+          <p className="text-gray-600 max-w-2xl mx-auto">
+            With over 15 years of experience in the construction industry, Mr.
+            Leye founded Rosade and Adsam Nigeria Ltd with a vision to provide
+            quality building materials to the Nigerian market.
+          </p>
+        </div>
+      </section>
+
+      {/* Team Members */}
+      <section className="bg-gray-50 py-20 px-6 animate-slide-up">
+        <div className="max-w-6xl mx-auto">
+          <div className="mb-12 text-center">
+            <span className="text-orange-500 font-medium">Our people</span>
+            <h2 className="text-3xl font-bold">Our Team</h2>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+            {[
+              {
+                name: "John Doe",
+                role: "Operations Manager",
+                img: "/team1.jpg",
+                bio: "10+ years experience in construction operations",
+              },
+              {
+                name: "Jane Smith",
+                role: "Sales Lead",
+                img: "/team2.jpg",
+                bio: "Expert in customer relations and business development",
+              },
+              {
+                name: "Michael Johnson",
+                role: "Site Supervisor",
+                img: "/team3.jpg",
+                bio: "Ensures quality control at all project sites",
+              },
+            ].map((member, index) => (
+              <div
+                key={index}
+                className="bg-white rounded-xl shadow-sm hover:shadow-md p-6 text-center transition-all hover:-translate-y-1"
+              >
+                <div className="relative mx-auto w-32 h-32 mb-4 group">
+                  <img
+                    src={member.img}
+                    alt={member.name}
+                    className="w-full h-full mx-auto rounded-full object-cover"
+                  />
+                  <div className="absolute inset-0 rounded-full bg-orange-500/10 group-hover:bg-transparent transition-all"></div>
+                </div>
+                <h3 className="text-xl font-semibold mb-1">{member.name}</h3>
+                <p className="text-orange-500 text-sm mb-3">{member.role}</p>
+                <p className="text-gray-600 text-sm">{member.bio}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Past Projects */}
+      <section className="py-20 px-6 max-w-6xl mx-auto animate-slide-up">
+        <div className="mb-12 text-center">
+          <span className="text-orange-500 font-medium">Our work</span>
+          <h2 className="text-3xl font-bold">Past Projects</h2>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          {[1, 2, 3, 4, 5, 6].map((num) => (
+            <div
+              key={num}
+              className="group relative overflow-hidden rounded-xl shadow hover:shadow-lg transition-all"
+            >
+              <img
+                src={`/project${num}.jpg`}
+                alt={`Project ${num}`}
+                className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                <span className="text-white font-medium text-lg">
+                  Project {num}
+                </span>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+    </div>
+  );
+}
