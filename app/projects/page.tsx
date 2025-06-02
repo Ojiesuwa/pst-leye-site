@@ -1,4 +1,13 @@
+"use client";
+
+import { useRouter } from "next/navigation";
+import { useEffect } from "react";
+
 export default function Projects() {
+  const router = useRouter();
+  useEffect(() => {
+    router.push("/");
+  }, []);
   return (
     <div className="bg-white text-gray-800 h-[calc(100svh-60px)] overflow-y-auto">
       {/* Hero Section */}

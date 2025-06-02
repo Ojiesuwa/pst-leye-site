@@ -266,7 +266,7 @@ export default function ProductServices() {
           <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
             <div className="relative h-64 overflow-hidden">
               <img
-                src="/custom.jpg"
+                src="/custom.jpeg"
                 alt="Custom Projects"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
@@ -315,7 +315,7 @@ export default function ProductServices() {
           </div>
 
           {/* Consultation Card */}
-          <div className="bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl shadow-lg p-8 flex flex-col justify-center text-white">
+          {/* <div className="bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl shadow-lg p-8 flex flex-col justify-center text-white">
             <div className="mb-6">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -343,7 +343,7 @@ export default function ProductServices() {
             >
               Book Consultation
             </a>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -365,7 +365,7 @@ export default function ProductServices() {
               Contact Us
             </a>
             <a
-              href="tel:+2348101234567"
+              href="tel:+2348144401474"
               className="bg-transparent border-2 border-white text-white font-semibold px-8 py-4 rounded-full hover:bg-white/10 transition-colors shadow-lg hover:shadow-xl"
             >
               Call Now

@@ -247,7 +247,7 @@ export default function About() {
             <div className="h-64 md:h-96 bg-gray-200 rounded-xl overflow-hidden">
               {/* Replace with your actual map component or iframe */}
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.621030318223!2d3.421269315231636!3d6.441974895338454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMjYnMzEuMSJOIDPCsDI1JzE2LjUiRQ!5e0!3m2!1sen!2sng!4v1620000000000!5m2!1sen!2sng"
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1982.3856592828224!2d3.444912288334556!3d6.423421248391891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s5b%20water%20corporation%20drive%2C%20Landmark%20road%2C%20Victoria%C2%A0Island%C2%A0Lagos.!5e0!3m2!1sen!2sng!4v1748898337187!5m2!1sen!2sng"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -275,7 +275,7 @@ export default function About() {
             />
             <div className="absolute inset-0 rounded-full bg-orange-500/10 group-hover:bg-transparent transition-all"></div>
           </div>
-          <h3 className="text-2xl font-semibold">Mr. PST Leye</h3>
+          <h3 className="text-2xl font-semibold">Adeshina Adeleye</h3>
           <p className="text-gray-600 mb-4">Founder & CEO</p>
           <p className="text-gray-600 max-w-2xl mx-auto">
             With over 15 years of experience in the construction industry, Mr.
@@ -296,22 +296,22 @@ export default function About() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             {[
               {
-                name: "John Doe",
-                role: "Operations Manager",
-                img: "/team1.jpg",
-                bio: "10+ years experience in construction operations",
+                name: "Adeleye Rosemary Ehi",
+                role: "Assistant Director",
+                img: "/ass-director.jpg",
+                bio: "Chief personnel in construction operations",
               },
               {
-                name: "Jane Smith",
-                role: "Sales Lead",
-                img: "/team2.jpg",
-                bio: "Expert in customer relations and business development",
+                name: "Ameh Daniel Adole",
+                role: "Stakeholder",
+                img: "/unknown.png",
+                bio: "Operations Manager I",
               },
               {
-                name: "Michael Johnson",
-                role: "Site Supervisor",
-                img: "/team3.jpg",
-                bio: "Ensures quality control at all project sites",
+                name: "Adebisi Tunde Atanda",
+                role: "Stakeholder",
+                img: "/unknown.png",
+                bio: "Operations Manager II",
               },
             ].map((member, index) => (
               <div
@@ -336,7 +336,7 @@ export default function About() {
       </section>
 
       {/* Past Projects */}
-      <section className="py-20 px-6 max-w-6xl mx-auto animate-slide-up">
+      {/* <section className="py-20 px-6 max-w-6xl mx-auto animate-slide-up">
         <div className="mb-12 text-center">
           <span className="text-orange-500 font-medium">Our work</span>
           <h2 className="text-3xl font-bold">Past Projects</h2>
@@ -360,7 +360,7 @@ export default function About() {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

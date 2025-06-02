@@ -1,4 +1,8 @@
+"use client";
+import { useRouter } from "next/navigation";
+
 export default function Home() {
+  const router = useRouter();
   return (
     <div className="bg-white text-gray-800 font-sans h-[calc(100svh-60px)] overflow-y-scroll">
       {/* Enhanced Hero Section with Video Background */}
@@ -37,10 +41,16 @@ export default function Home() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-yellow-500 hover:bg-yellow-600 transition-all duration-300 text-white font-semibold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+            <button
+              className="bg-yellow-500 hover:bg-yellow-600 transition-all duration-300 text-white font-semibold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+              onClick={() => router.push("/products-services")}
+            >
               Explore Our Products
             </button>
-            <button className="bg-transparent border-2 border-white hover:bg-white/20 transition-all duration-300 text-white font-semibold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+            <button
+              className="bg-transparent border-2 border-white hover:bg-white/20 transition-all duration-300 text-white font-semibold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+              onClick={() => router.push("/about")}
+            >
               About Our Company
             </button>
           </div>
@@ -164,7 +174,7 @@ export default function Home() {
                 </svg>
                 <div>
                   <p className="font-semibold">Phone</p>
-                  <p>+234 902 342 6098</p>
+                  <p>+234 814 440 1474</p>
                 </div>
               </div>
               <div className="flex items-start">
@@ -183,7 +193,7 @@ export default function Home() {
                 </svg>
                 <div>
                   <p className="font-semibold">Email</p>
-                  <p>rosade.adsam@gmail.com</p>
+                  <p>adeleyeayomide968@gmail.com</p>
                 </div>
               </div>
             </div>
@@ -211,7 +221,7 @@ export default function Home() {
                 <div>
                   <p className="font-semibold">Location</p>
                   <p>
-                    Water Cooperation Drive, Landmark Road, Victoria Island,
+                   5b Water Cooperation Drive, Landmark Road, Victoria Island,
                     Lagos
                   </p>
                 </div>
@@ -232,7 +242,7 @@ export default function Home() {
                 </svg>
                 <div>
                   <p className="font-semibold">WhatsApp</p>
-                  <p>+234 812 345 6789</p>
+                  <p>+234 814 440 1474</p>
                 </div>
               </div>
             </div>

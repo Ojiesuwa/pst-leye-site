@@ -49,7 +49,7 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="font-semibold text-lg">Phone & WhatsApp</h3>
-                <p className="text-gray-600">+234 810 123 4567</p>
+                <p className="text-gray-600">+234 814 440 1474</p>
               </div>
             </div>
 
@@ -72,7 +72,7 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="font-semibold text-lg">Email</h3>
-                <p className="text-gray-600">rosadeadsamnigltd@gmail.com</p>
+                <p className="text-gray-600">adeleyeayomide968@gmail.com</p>
               </div>
             </div>
 
@@ -102,14 +102,15 @@ export default function Contact() {
               <div>
                 <h3 className="font-semibold text-lg">Address</h3>
                 <p className="text-gray-600">
-                  Water Cooperation Drive, Landmark Road, Victoria Island, Lagos
+                  5b Water Cooperation Drive, Landmark Road, Victoria Island,
+                  Lagos
                 </p>
               </div>
             </div>
           </div>
 
           {/* Social Media */}
-          <div>
+          {/* <div>
             <h3 className="font-semibold text-lg mb-4">Connect With Us</h3>
             <div className="flex gap-4">
               <a
@@ -177,11 +178,11 @@ export default function Contact() {
                 </svg>
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Contact Form */}
-        <div className="space-y-8">
+        {/* <div className="space-y-8">
           <div>
             <span className="text-orange-500 font-medium">Send a message</span>
             <h2 className="text-3xl font-bold mt-2">Contact Form</h2>
@@ -231,7 +232,7 @@ export default function Contact() {
               Send Message
             </button>
           </form>
-        </div>
+        </div> */}
       </section>
 
       {/* Map Section */}
@@ -244,7 +245,7 @@ export default function Contact() {
 
           <div className="w-full h-96 rounded-2xl overflow-hidden shadow-xl">
             <iframe
-              src="https://www.google.com/maps/embed?..."
+              src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1982.3856592828224!2d3.444912288334556!3d6.423421248391891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s5b%20water%20corporation%20drive%2C%20Landmark%20road%2C%20Victoria%C2%A0Island%C2%A0Lagos.!5e0!3m2!1sen!2sng!4v1748898337187!5m2!1sen!2sng"
               width="100%"
               height="100%"
               style={{ border: 0 }}
