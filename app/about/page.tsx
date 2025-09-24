@@ -275,7 +275,7 @@ export default function About() {
             />
             <div className="absolute inset-0 rounded-full bg-orange-500/10 group-hover:bg-transparent transition-all"></div>
           </div>
-          <h3 className="text-2xl font-semibold">Adeshina Adeleye</h3>
+          <h3 className="text-2xl font-semibold">Oluwasina Adeleye</h3>
           <p className="text-gray-600 mb-4">Founder & CEO</p>
           <p className="text-gray-600 max-w-2xl mx-auto">
             With over 15 years of experience in the construction industry, Mr.
@@ -300,6 +300,12 @@ export default function About() {
                 role: "Assistant Director",
                 img: "/ass-director.jpg",
                 bio: "Chief personnel in construction operations",
+              },
+              {
+                name: "Olawale Jesudaro",
+                role: "Stakeholder",
+                img: "/wale.jpg",
+                bio: "",
               },
               {
                 name: "Ameh Daniel Adole",
